@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Day #6 - XO Game | AsmrProg</title>
+</head>
+
+<body>
+    <h1>Simple XO Game</h1>
+    <div id="container">
+        <div class="block">
+            <div id="box1" class="box top left">
+                <span data-player="none" onclick="play(this)">&nbsp;</span>
+            </div>
+            <div id="box2" class="box top">
+                <span data-player="none" onclick="play(this)">&nbsp;</span>
+            </div>
+            <div id="box3" class="box top right">
+                <span data-player="none" onclick="play(this)">&nbsp;</span>
+            </div>
+        </div>
+        <div class="block">
+            <div id="box4" class="box left">
+                <span data-player="none" onclick="play(this)">&nbsp;</span>
+            </div>
+            <div id="box5" class="box">
+                <span data-player="none" onclick="play(this)">&nbsp;</span>
+            </div>
+            <div id="box6" class="box right">
+                <span data-player="none" onclick="play(this)">&nbsp;</span>
+            </div>
+        </div>
+        <div class="block">
+            <div id="box7" class="box bottom left">
+                <span data-player="none" onclick="play(this)">&nbsp;</span>
+            </div>
+            <div id="box8" class="box bottom">
+                <span data-player="none" onclick="play(this)">&nbsp;</span>
+            </div>
+            <div id="box9" class="box bottom right">
+                <span data-player="none" onclick="play(this)">&nbsp;</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
