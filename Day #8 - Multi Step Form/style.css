@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu';
+}
+
+body{
+    background: #43a047;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container{
+    width: 360px;
+    height: 400px;
+    margin: 8% auto;
+    background: #fff;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); 
+}
+
+h3{
+    text-align: center;
+    margin-bottom: 40px;
+    color: #777;
+}
+
+.container form{
+    width: 280px;
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    transition: 0.5s;
+}
+
+form input{
+    width: 100%;
+    padding: 10px 5px;
+    margin: 5px 0;
+    border: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+::placeholder{
+    color: #777;
+}
+
+.btn-box{
+    width: 100%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+form button{
+    width: 110px;
+    height: 35px;
+    margin: 0 10px;
+    background: linear-gradient(to right, #1565c0, #1976d2);
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 0.8em;
+}
+
+#form2{
+    left: 450px;
+}
+
+#form3{
+    left: 450px;
+}
+
+.step-row{
+    width: 360px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 -1px 5px -1px #000;
+    position: relative;
+}
+
+.step-col{
+    width: 120px;
+    text-align: center;
+    color: #333;
+    position: relative;
+}
+
+#progress{
+    position: absolute;
+    height: 100%;
+    width: 120px;
+    background: linear-gradient(to right, #1565c0, #1976d2);
+}
+
+small{
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.8em;
+}
+
+#progress::after{
+    content: '';
+    height: 0;
+    width: 0;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    position: absolute;
+    right: -20px;
+    top: 0;
+    border-left: 20px solid #1976d2;
+}
