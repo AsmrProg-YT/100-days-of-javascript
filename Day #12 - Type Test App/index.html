@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Day #12 - Type Test App | AsmrProg</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="stats">
+            <p>Time: <span id="timer">0s</span></p>
+            <p>Mistakes: <span id="mistakes">0</span></p>
+        </div>
+        <div id="quote" onmousedown="return false" onselectstart="return false"></div>
+
+        <textarea id="quote-input" rows="3" placeholder="Type here when test starts..."></textarea>
+
+        <button id="start-test" onclick="startTest()">Start Test</button>
+        <button id="stop-test" onclick="displayResult()">Stop Test</button>
+
+        <div class="result">
+            <h3>Result</h3>
+            <div class="wrapper">
+                <p>Accuracy: <span id="accuracy"></span></p>
+                <p>Speed: <span id="wpm"></span></p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
