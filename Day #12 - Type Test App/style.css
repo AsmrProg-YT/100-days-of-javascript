@@ -4,23 +4,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
 }
 
 body{
-    background-color: #1565c0;
+    background-color: #c75c5c;
 }
 
 .container{
     width: 80vmin;
     padding: 50px 30px;
-    background-color: #fff;
+    background-color: #e6b3b3;
     position: absolute;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
-    border-radius: 10px;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+    box-shadow: 0 70px 100px rgba(0, 0, 0, 0.15);
 }
 
 .stats{
@@ -35,7 +36,7 @@ body{
 
 #quote{
     text-align: justify;
-    margin: 50px 0 30px 0;
+    margin: 60px 0 30px 0;
 }
 
 textarea{
@@ -43,18 +44,19 @@ textarea{
     width: 100%;
     border-radius: 5px;
     padding: 10px 5px;
-    font-size: 16px;
+    font-size: 16.2px;
 }
 
 button{
     float: right;
     margin-top: 20px;
-    background-color: #1565c0;
+    background-color: #b71a1a;
     color: #fff;
     border: none;
-    padding: 10px 30px;
+    padding: 10px 40px;
+/*     padding-left: 10px; */
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 22.2px;
 }
 
 .result{
