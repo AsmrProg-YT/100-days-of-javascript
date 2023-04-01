@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #2e7d32;
+}
+
+.wrapper{
+    background-color: #fff;
+    height: 600px;
+    width: 600px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 8px;
+}
+
+.game{
+    height: 500px;
+    width: 500px;
+    background-color: #101010;
+    border-radius: 8%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.colors{
+    height: 210px;
+    width: 210px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.color1{
+    background-color: #006400;
+    border-radius: 10px 0 0 0;
+    top: 30px;
+    left: 30px;
+}
+
+.color2{
+    background-color: #800000;
+    border-radius: 0px 10px 0 0;
+    top: 30px;
+    right: 30px;
+}
+
+.color3{
+    background-color: #00008b;
+    border-radius: 0 0 10px 0;
+    bottom: 30px;
+    right: 30px;
+}
+
+.color4{
+    background-color: #808000;
+    border-radius: 0 0 0 10px;
+    bottom: 30px;
+    left: 30px;
+}
+
+.game::before{
+    position: absolute;
+    content: "";
+    background: #101010;
+    z-index: 1;
+    width: 240px;
+    height: 240px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10%;
+}
+
+#score{
+    background-color: #fff;
+    font-size: 24px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    width: 100px;
+    height: 80px;
+    display: grid;
+    place-items: center;
+    border-radius: 5px;
+}
+
+.container{
+    background-color: #2e7d32;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hide{
+    display: none;
+}
+
+.container button{
+    background-color: #fff;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.container p{
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.container span{
+    font-weight: 600;
+}
