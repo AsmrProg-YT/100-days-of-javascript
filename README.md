@@ -44,4 +44,4 @@ Find Video's on : <a href="https://youtube.com/@AsmrProg" target="_blank">AsmrPr
 ## Where is rest 68 Projects
 
 We create a project each 3 days with voting on our <a href="https://youtube.com/@AsmrProg" target="_blank">Youtube</a> channel.
-You can vote for oncoming projects on our channel **community** page :wink:
+You can vote for upcoming projects on our channel **community** page :wink:
