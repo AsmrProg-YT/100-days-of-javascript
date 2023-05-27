@@ -8,15 +8,17 @@ Find Video's on : <a href="https://youtube.com/@AsmrProg" target="_blank">AsmrPr
 
 # Projects
 
-1. Pixel Art Generator
-2. Rich Text Editor
-3. Password Generator
-4. QR Code Generator
-5. Detect Device Battery
-6. XO Game
-7. Flip a Coin Game
-8. Multi Step Form
-9. Aspect Ratio Calculator
+Here we have list of projects:
+
+01. Pixel Art Generator
+02. Rich Text Editor
+03. Password Generator
+04. QR Code Generator
+05. Detect Device Battery
+06. XO Game
+07. Flip a Coin Game
+08. Multi Step Form
+09. Aspect Ratio Calculator
 10. Weather App
 11. Movie Guide App
 12. Type Test App
