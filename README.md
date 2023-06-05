@@ -43,8 +43,9 @@ Here we have list of projects:
 31. ChatGPT Bot
 32. Google Maps Api
 33. Pong Game
+34. Chrome Color Picker Extension
 
-## Where is rest 67 Projects
+## Where is rest 66 Projects
 
 We create a project each 3 days with voting on our <a href="https://youtube.com/@AsmrProg" target="_blank">Youtube</a> channel.
 You can vote for upcoming projects on our channel **community** page :wink:
