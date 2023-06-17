@@ -46,8 +46,9 @@ Here we have list of projects:
 34. Chrome Color Picker Extension
 35. ASCII Donut Animation
 36. Stock Tracker App
+37. Box Shadow Generator
 
-## Where is rest 64 Projects
+## Where is rest 63 Projects
 
 We create a project each 3 days with voting on our <a href="https://youtube.com/@AsmrProg" target="_blank">Youtube</a> channel.
 You can vote for upcoming projects on our channel **community** page :wink:
