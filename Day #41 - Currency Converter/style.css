@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 0 10px;
+    background: #221f2f;
+    overflow: hidden;
+}
+
+body::before{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-color: #ed2ff0;
+    left: 15%;
+    top: 20%;
+    filter: blur(150px);
+}
+
+body::after{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background-color: #22a8cd;
+    left: 80%;
+    top: 74%;
+    filter: blur(150px);
+}
+
+.container {
+    width: 25rem;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.44);
+    padding: 20px 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.4px);
+    -webkit-backdrop-filter: blur(7.4px);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.container h2{
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.container form{
+    margin: 30px 0 10px 0;
+}
+
+.container form p{
+    font-size: 1rem;
+    margin-bottom: 7px;
+}
+
+.container form input{
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 0 15px;
+    background: transparent;
+    color: #fff;
+    border: 1px solid #999;
+    transition: all 0.3s ease;
+}
+
+.container form input:hover{
+    border: 1px solid #675afe;
+}
+
+.container form input:focus{
+    padding: 0 14px;
+    border: 1px solid #675afe;
+}
+
+.container form .convert-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.container form .from, .container form .to{
+    width: 100%;
+}
+
+.container .convert-box .select-input{
+    display: flex;
+    width: 100%;
+    border: 1px solid #999;
+    height: 40px;
+    align-items: center;
+    border-radius: 5px;
+    padding: 0 20px;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.container .convert-box .select-input:hover{
+    border: 1px solid #675afe;
+}
+
+.container .convert-box .select-input img{
+    max-width: 20px;
+}
+
+.container .convert-box .select-input select{
+    width: 100%;
+    cursor: pointer;
+    font-size: 1rem;
+    background: none;
+    margin: 0 -5px 0 5px;
+    color: #fff;
+}
+
+.container .convert-box .select-input select option{
+    color: #000;
+}
+
+.container .convert-box .reverse{
+    cursor: pointer;
+    margin-top: 32px;
+    font-size: 22px;
+    transform: rotate(90deg);
+    transition: all 0.3s ease;
+}
+
+.container .convert-box .reverse:hover{
+    color: #675afe;
+}
+
+.container form .result{
+    font-size: 1.1rem;
+    margin: 20px 0 30px;
+}
+
+.container form button{
+    width: 100%;
+    height: 42px;
+    color: #fff;
+    background: #20232c;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.container form button:hover{
+    background: #675afe;
+}
