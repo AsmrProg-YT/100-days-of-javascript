@@ -51,8 +51,9 @@ Here we have list of projects:
 39. Tradingview Widget
 40. Detect Internet Speed
 41. Currency Converter
+42. Live Code Editor
 
-## Where is rest 59 Projects
+## Where is rest 58 Projects
 
 We create a project each 3 days with voting on our <a href="https://youtube.com/@AsmrProg" target="_blank">Youtube</a> channel.
 You can vote for upcoming projects on our channel **community** page :wink:
