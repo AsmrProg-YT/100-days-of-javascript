@@ -52,6 +52,7 @@ Here we have list of projects:
 40. Detect Internet Speed
 41. Currency Converter
 42. Live Code Editor
+43. Parallex Slider With Flickity
 
 ## Where is rest 58 Projects
 

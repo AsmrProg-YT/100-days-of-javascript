@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Roboto+Slab:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gradient{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to bottom, rgba(17, 26, 37, 0.8), rgba(37, 36, 37, 0.2));
+}
+
+.hero-slider{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hero-slider .carousel-cell{
+    width: 100%;
+    height: 100%;
+    background: no-repeat center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-slider .carousel-cell .info-container{
+    color: #fff;
+    position: relative;
+}
+
+.hero-slider .carousel-cell .info-container .header{
+    font-family: 'Roboto Slab', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 4px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 8px;
+}
+
+.hero-slider .carousel-cell .info-container .text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 46px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 32px;
+}
+
+.hero-slider .carousel-cell .info-container button{
+    padding: 12px 20px;
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    letter-spacing: 3px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.hero-slider .carousel-cell .info-container button:hover{
+    background: #fff;
+    color: #000;
+    font-weight: bold;
+}
+
+.hero-slider .flickity-prev-next-button{
+    width: 85px;
+    height: 85px;
+    background: transparent;
+}
+
+.hero-slider .flickity-prev-next-button .arrow{
+    fill: #fff;
+}
+
+.hero-slider .flickity-page-dots{
+    bottom: 60px;
+}
+
+.hero-slider .flickity-page-dots .dot{
+    width: 40px;
+    height: 10px;
+    background: rgba(255, 255, 255, 0.4);
+    opacity: 1;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+.hero-slider .flickity-page-dots .dot:hover,
+.hero-slider .flickity-page-dots .dot.is-selected{
+    background: #fff;
+}
