@@ -53,8 +53,9 @@ Here we have list of projects:
 41. Currency Converter
 42. Live Code Editor
 43. Parallex Slider With Flickity
+44. Minimal Weather App
 
-## Where is rest 58 Projects
+## Where is rest 56 Projects
 
 We create a project each 3 days with voting on our <a href="https://youtube.com/@AsmrProg" target="_blank">Youtube</a> channel.
 You can vote for upcoming projects on our channel **community** page :wink:
