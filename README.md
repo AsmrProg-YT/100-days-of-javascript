@@ -54,8 +54,9 @@ Here we have list of projects:
 42. Live Code Editor
 43. Parallex Slider With Flickity
 44. Minimal Weather App
+45. Particles Portfolio
 
-## Where is rest 56 Projects
+## Where is rest 55 Projects
 
 We create a project each 3 days with voting on our <a href="https://youtube.com/@AsmrProg" target="_blank">Youtube</a> channel.
 You can vote for upcoming projects on our channel **community** page :wink:
