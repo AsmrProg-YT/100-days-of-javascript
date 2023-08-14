@@ -55,6 +55,7 @@ Here we have list of projects:
 43. Parallex Slider With Flickity
 44. Minimal Weather App
 45. Particles Portfolio
+46. Sudoku Solver
 
 ## Where is rest 55 Projects
 
