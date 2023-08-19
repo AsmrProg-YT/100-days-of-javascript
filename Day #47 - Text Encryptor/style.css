@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(#1c1917 50%, #ffb92a 50%);
+}
+
+h1{
+    margin-bottom: 50px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.container{
+    width: 500px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 40px;
+    border-radius: 1rem;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.35);
+}
+
+label{
+    margin-bottom: 12px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+textarea, input{
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    border: 1px solid #999;
+    resize: none;
+}
+
+.buttons{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+button{
+    padding: 10px;
+    font-size: 15px;
+    width: 50%;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #35302d;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+h2{
+    margin-bottom: 10px;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+#result{
+    font-size: 13px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    min-height: 100px;
+    overflow: hidden;
+}
