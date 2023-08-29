@@ -57,6 +57,7 @@ Here we have list of projects:
 45. Particles Portfolio
 46. Sudoku Solver
 47. Text Encryptor
+48. Ai Image Generator
 
 ## Where is rest 53 Projects
 

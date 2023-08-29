@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Day #48 - Ai Image Generator | AsmrProg</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>AsmrProg Ai Image Generator</h1>
+        <p>Write your prompt here to generate images with power of Ai, For example : "Best Quality, Masterpiece,
+            Exteremly Detailed, High Resolution, 4K, Ultra High Resolution, Detailed Shadows, (Two Girls in Cosumes
+            Taking Selfies on The Street), Colorful Braids, Mixed Fujifilm, Cute, Laugh".</p>
+        <form class="gen-form">
+            <input type="text" id="user-prompt" , placeholder="Type your prompt here..." autocomplete="off">
+            <button type="button" id="generate">Generate</button>
+        </form>
+
+        <div class="result">
+            <div id="loading">Generating...</div>
+            <div id="image-grid"></div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
