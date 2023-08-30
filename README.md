@@ -58,6 +58,7 @@ Here we have list of projects:
 46. Sudoku Solver
 47. Text Encryptor
 48. Ai Image Generator
+49. Chess Game (VS Computer)
 
 ## Where is rest 53 Projects
 
