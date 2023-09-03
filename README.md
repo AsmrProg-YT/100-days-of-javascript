@@ -59,6 +59,7 @@ Here we have list of projects:
 47. Text Encryptor
 48. Ai Image Generator
 49. Chess Game (VS Computer)
+50. IP Address Tracker
 
 ## Where is rest 53 Projects
 

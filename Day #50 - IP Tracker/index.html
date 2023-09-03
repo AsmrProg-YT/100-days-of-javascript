@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Day #50 - IP Tracker | AsmrProg</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>IP Adress Tracker</h1>
+        <form>
+            <input type="text" id="search" placeholder="Search IP Address..." required autocomplete="off">
+            <button type="submit">Search</button>
+        </form>
+        <div id="result">
+            <div class="info responsive">
+                <h4>IP Address</h4>
+                <p id="ip-address"></p>
+            </div>
+            <div class="info">
+                <h4>Location</h4>
+                <p id="location"></p>
+            </div>
+            <div class="info">
+                <h4>Time Zone</h4>
+                <p id="time-zone"></p>
+            </div>
+            <div class="info">
+                <h4>ISP</h4>
+                <p id="isp"></p>
+            </div>
+        </div>
+        <div id="map"></div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

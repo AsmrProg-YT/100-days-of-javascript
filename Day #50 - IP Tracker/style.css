@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #8bc6ec;
+    background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+}
+
+.container{
+    width: 50%;
+    height: 600px;
+    background-color: #fff;
+    padding: 30px;
+    overflow: hidden;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1{
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    padding: 8px;
+    width: 50%;
+    border: 1px solid #000;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    font-size: 15px;
+    outline: none;
+}
+
+button{
+    background-color: #2196f3;
+    color: #fff;
+    border: 1px solid #000;
+    border-left: none;
+    border-radius: 0 4px 4px 0;
+    padding: 8px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    background-color: #1976d2;
+}
+
+#result{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+h4{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+p{
+    font-size: 13px;
+}
+
+#map{
+    height: 68%;
+    margin-top: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (width < 1100px) {
+    
+    h1{
+        font-size: 24px;
+    }
+
+    .container{
+        width: 80%;
+    }
+    
+    .responsive{
+        display: none;
+    }
+
+    #result{
+        justify-content: space-around;
+    }
+
+    input, button{
+        font-size: 13px;
+    }
+
+}
