@@ -59,8 +59,9 @@ Here we have list of projects:
 47. Text Encryptor
 48. Ai Image Generator
 49. Chess Game (VS Computer)
+50. Food Recipe Website
 
-## Where is rest 53 Projects
+## Where is rest 50 Projects
 
 We create a project each 3 days with voting on our <a href="https://youtube.com/@AsmrProg" target="_blank">Youtube</a> channel.
 You can vote for upcoming projects on our channel **community** page :wink:
