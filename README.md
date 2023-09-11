@@ -60,6 +60,7 @@ Here we have list of projects:
 48. Ai Image Generator
 49. Chess Game (VS Computer)
 50. Food Recipe Website
+51. Draggable Profile Card
 
 ## Where is rest 50 Projects
 
