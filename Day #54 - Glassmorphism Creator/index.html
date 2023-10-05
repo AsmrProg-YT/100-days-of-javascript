@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Day #54 - Glassmorphism Creator | AsmrProg</title>
+</head>
+
+<body>
+
+    <div class="glass-preview">
+        <div class="glass-preview-rectangle"></div>
+    </div>
+
+    <div class="container">
+        <div class="content">
+            <h1>Glassmorphism Creator</h1>
+            <div class="input-container">
+                <label for="blur">Blur :</label>
+                <input type="range" id="blur" min="0" max="30" value="10">
+            </div>
+            <div class="input-container">
+                <label for="transparency">Transparency :</label>
+                <input type="range" id="transparency" min="0" max="1" step="0.01" value="0.7">
+            </div>
+            <div class="input-container">
+                <label for="color">Color :</label>
+                <input type="color" id="color" value="#000">
+            </div>
+            <div class="input-container">
+                <label for="outline">Outline :</label>
+                <input type="range" id="outline" min="0" max="10" value="2">
+            </div>
+            <div class="input-container">
+                <label for="css-code">Generated CSS Code :</label>
+                <textarea id="css-code" readonly></textarea>
+            </div>
+            <button id="copy-button">Copy To Clipboard</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
