@@ -65,6 +65,7 @@ Here we have list of projects:
 53. Url Shortner
 54. Glassmorphism Generator
 55. Alarm App
+56. Image Color Picker
 
 ## Where is rest 45 Projects
 
