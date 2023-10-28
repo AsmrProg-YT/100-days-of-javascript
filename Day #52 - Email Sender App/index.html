@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Send Email</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="gradient-section">
+            <div class="gradient"></div>
+            <div class="gradient-content">
+                <h1 class="heading">Welcome to our <span>Creative</span> Hub!</h1>
+                <p class="paragraph">Your gateway to a world of creative possibilities begins here.</p>
+            </div>
+        </div>
+
+        <div class="form-section">
+            <h2>Hi, Friend!</h2>
+            <p>Welcome to our Email Sender form!</p>
+            <form>
+                <div class="form-group">
+                    <label for="to">To:</label>
+                    <input type="text" id="to" name="to" required autocomplete="off" placeholder="Example@email.com">
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject:</label>
+                    <input type="text" id="subject" name="subject" required autocomplete="off"
+                        placeholder="Collaboration Request">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required spellcheck="false" autocomplete="off"
+                        placeholder="Your Text..."></textarea>
+                </div>
+                <div class="form-group result-container">
+                    <p class="result">Email sent successfully.</p>
+                    <button type="button" class="send-btn">Send Email</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

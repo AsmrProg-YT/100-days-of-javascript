@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+input,
+label,
+button {
+    border: none;
+    outline: none;
+}
+
+body{
+    background: linear-gradient(#27272a 50%, #075985 50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    color: #000;
+    background: #fff;
+    width: 420px;
+    padding: 32px;
+    border-radius: 10px;
+    border: 2px solid #27272a;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+img{
+    width: 350px;
+    display: block;
+    height: 350px;
+    object-fit: cover;
+    margin-bottom: 26px;
+    border-radius: 6px;
+    border: 2px solid #27272a;
+}
+
+.btns-container{
+    display: flex;
+    gap: 14px;
+}
+
+input[type="file"]{
+    display: none;
+}
+
+label,
+button{
+    display: block;
+    font-size: 13px;
+    background-color: #075985;
+    color: #fff;
+    text-align: center;
+    padding: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btns-container label,
+.btns-container button{
+    flex: 1;
+}
+
+#result{
+    margin: 20px;
+    grid-template-columns: 1fr 1fr;
+    gap: 14px;
+}
+
+#result div{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#result input{
+    background-color: transparent;
+    font-size: 13px;
+    padding: 6px;
+    border: 1px solid #075985;
+    width: 100%;
+    border-radius: 6px;
+}
+
+#result button{
+    position: absolute;
+    right: 2px;
+    background-color: transparent;
+    color: #075985;
+}
+
+#picked-color{
+    grid-column: 2;
+    grid-row: 1 / 3;
+    border-radius: 6px;
+    border: 1px solid #27272a;
+}
+
+.hide{
+    display: none;
+}

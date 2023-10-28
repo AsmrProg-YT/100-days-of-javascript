@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #f5f9ff;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1070px;
+  width: 100%;
+  display: flex;
+  margin-inline: 1rem;
+}
+
+.gradient-section {
+  width: 50%;
+  position: relative;
+}
+
+.gradient {
+  width: 100%;
+  height: 100%;
+  background-color: #ccff99;
+  background-image:
+    radial-gradient(at 83% 69%, hsla(280, 67%, 78%, 1) 0px, transparent 50%),
+    radial-gradient(at 9% 70%, hsla(18, 81%, 74%, 1) 0px, transparent 50%),
+    radial-gradient(at 61% 52%, hsla(153, 75%, 65%, 1) 0px, transparent 50%),
+    radial-gradient(at 28% 93%, hsla(321, 74%, 60%, 1) 0px, transparent 50%),
+    radial-gradient(at 34% 6%, hsla(216, 89%, 66%, 1) 0px, transparent 50%),
+    radial-gradient(at 51% 86%, hsla(295, 97%, 67%, 1) 0px, transparent 50%),
+    radial-gradient(at 32% 55%, hsla(295, 99%, 66%, 1) 0px, transparent 50%);
+}
+
+.gradient-content {
+  padding: 2rem;
+  width: 92%;
+  color: hsl(240, 54%, 15%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.28);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.7px);
+  -webkit-backdrop-filter: blur(6.7px);
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.gradient-content h1 {
+  font-weight: 600;
+  font-size: 2.3rem;
+  margin-bottom: 1rem;
+}
+
+.gradient-content span {
+  color: #4776E6;
+}
+
+.form-section {
+  padding: 40px 50px 30px;
+  width: 550px;
+  background-color: #fff;
+}
+
+.form-section form {
+  margin-top: 15px;
+}
+
+.form-group {
+  margin-bottom: 12px;
+}
+
+.form-group label {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: #16164d;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+  font-size: 0.875rem;
+  font-weight: 500;
+  width: 100%;
+  color: hsl(240, 54%, 15%);
+  padding: 0.3rem;
+  border: 2px solid #ccc;
+  border-radius: 0.3rem;
+  outline: none;
+}
+
+.form-group textarea {
+  height: 150px;
+  resize: none;
+}
+
+.send-btn {
+  color: white;
+  background: linear-gradient(to right, #4776E6 0%, #7f47e6 100%);
+  padding: 6px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.result-container {
+  margin-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.result-container p{
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #3461ca;
+  opacity: 0;
+  transition: all 0.2s ease;
+}
+
+@media screen and (max-width: 60rem) {
+  .container {
+    margin: 0;
+  }
+  .gradient-content {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 56rem) {
+  
+  .container {
+    max-width: 90%;
+    flex-direction: column;
+    margin-inline: 0;
+  }
+
+  .gradient-section,
+  .form-section {
+    width: 100%;
+  }
+
+  .gradient-section {
+    height: 25vh;
+  }
+
+  .gradient-content {
+    inset: 0;
+    transform: translate(0, 0);
+    padding: 1rem 1.6rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .gradient-content h1 {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+
+  .gradient-content p {
+    font-size: 0.75rem;
+  }
+
+  .form-section {
+    flex: 1;
+    padding: 1rem 1rem;
+  }
+
+  .form-section > h2 {
+    font-size: 1.25rem;
+  }
+
+  .form-section button {
+    font-size: 0.875rem;
+  }
+
+}
+
+@media screen and (max-width: 36.25rem) {
+  .container {
+    max-width: 100%;
+  }
+
+  .form-section {
+    width: 100%;
+  }
+}

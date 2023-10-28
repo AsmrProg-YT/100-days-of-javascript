@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Day #56 - Image Color Picker | AsmrProg</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="img-section">
+            <img src="bg.jpg" id="image">
+        </div>
+        <div class="btns-container">
+            <input type="file" id="file" accesskey="image/*">
+            <label for="file">Open a Photo</label>
+            <button id="pick-btn">Pick Color</button>
+        </div>
+        <div id="result" class="hide">
+            <div>
+                <input type="text" id="hex-input" readonly>
+                <button onclick="copyToClipboard('hex-input')">
+                    <i class="fa-regular fa-copy"></i>
+                </button>
+            </div>
+            <div>
+                <input type="text" id="rgb-input" readonly>
+                <button onclick="copyToClipboard('rgb-input')">
+                    <i class="fa-regular fa-copy"></i>
+                </button>
+            </div>
+            <div id="picked-color"></div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
