@@ -66,6 +66,7 @@ Here we have list of projects:
 54. Glassmorphism Generator
 55. Alarm App
 56. Image Color Picker
+57. 2048 Game
 
 ## Where is rest 45 Projects
 
