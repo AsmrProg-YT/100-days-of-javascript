@@ -67,6 +67,7 @@ Here we have list of projects:
 55. Alarm App
 56. Image Color Picker
 57. 2048 Game
+58. Games Release Calendar
 
 ## Where is rest 45 Projects
 

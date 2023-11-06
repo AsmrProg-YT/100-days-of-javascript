@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Day #58 - Games Release Calendar | AsmrProg</title>
+</head>
+
+<body>
+
+    <h1>Video Games Release Calendar</h1>
+    <div class="controls">
+        <button id="prevMonth">Previous</button>
+        <span id="currentMonthYear"></span>
+        <button id="nextMonth">Next</button>
+    </div>
+
+    <div id="calendar"></div>
+
+    <div id="gameModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <img src="" id="gameImage">
+            <h2 id="gameTitle"></h2>
+            <p><strong>Description:</strong> <span id="gameDescription"></span></p>
+            <p><strong>Release Date:</strong> <span id="gameReleaseDate"></span></p>
+            <p><strong>Rating:</strong> <span id="gameRating"></span></p>
+            <p><strong>Platforms:</strong> <span id="gamePlatforms"></span></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
