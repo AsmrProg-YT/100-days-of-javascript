@@ -68,8 +68,9 @@ Here we have list of projects:
 56. Image Color Picker
 57. 2048 Game
 58. Games Release Calendar
+59. Snake Pong Game
 
-## Where is rest 45 Projects
+## Where is rest 41 Projects
 
 We create a project each 3 days with voting on our <a href="https://youtube.com/@AsmrProg" target="_blank">Youtube</a> channel.
 You can vote for upcoming projects on our channel **community** page :wink:
