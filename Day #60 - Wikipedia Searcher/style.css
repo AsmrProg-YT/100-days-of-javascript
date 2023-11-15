@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body{
+    background-color: #eee;
+    padding: 0 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    margin-top: 20px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: #616161;
+    font-size: 42px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+header p{
+    color: #616161;
+    font-weight: bold;
+}
+
+.search-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    width: 100%;
+    overflow: hidden;
+    max-width: 720px;
+    margin-bottom: 16px;
+    transition: all 0.3s ease;
+}
+
+.search-box input{
+    display: block;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    border: none;
+    padding: 16px;
+    border-radius: 12px;
+    width: 100%;
+    transition: all 0.3s ease;
+}
+
+.search-box:focus-within{
+    box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
+    transform: translateY(-3px);
+}
+
+.results{
+    max-width: 768px;
+    margin: 0 auto;
+}
+
+.result{
+    width: 100%;
+    padding: 16px;
+    margin: 16px 0;
+    background-color: #fff;
+    border-radius: 14px;
+    transition: all 0.3s ease;
+}
+
+.result:hover{
+    box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
+}
+
+.result h3{
+    color: #616161;
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+
+.result p{
+    color: #313131;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.result a{
+    display: inline-block;
+    padding: 12px;
+    width: 100%;
+    background-color: #5c6bc0;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.result a:hover{
+    background-color: #3949ab;
+}
