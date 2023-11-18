@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Day #61 - Api Quiz Game | AsmrProg</title>
+</head>
+
+<body>
+
+    <div id="quiz-container">
+        <div id="game-setup">
+            <div>
+                <label for="category">Choose a Category:</label>
+                <select id="category">
+                    <option value="">Any Category</option>
+                </select>
+            </div>
+            <div>
+                <label for="amount">Number of Questions:</label>
+                <input type="number" id="amount" min="1" max="50" value="10">
+            </div>
+            <div>
+                <label for="difficulty">Select Difficulty:</label>
+                <select id="difficulty">
+                    <option value="">Any Difficulty</option>
+                    <option value="easy">Easy</option>
+                    <option value="medium">Medium</option>
+                    <option value="hard">Hard</option>
+                </select>
+            </div>
+            <button id="start-btn">Start Game</button>
+        </div>
+        <div id="quiz" style="display: none;">
+            <div id="progress"></div>
+            <div id="currentScore"></div>
+            <div id="highScore"></div>
+            <div id="question"></div>
+            <div id="answers"></div>
+            <div id="result"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
