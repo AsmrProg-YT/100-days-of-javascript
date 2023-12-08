@@ -71,6 +71,7 @@ Here we have list of projects:
 59. Snake Pong Game
 60. Wikipedia Searcher
 61. Api Quiz Game
+62. Chrome ToDo Extension
 
 ## Where is rest 39 Projects
 

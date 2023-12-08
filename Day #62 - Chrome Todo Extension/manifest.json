@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Chrome To-Do",
+    "description": "A simple and clean to-do list extension! Coded by AsmrProg.",
+    "version": "1.0",
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "storage"
+    ],
+    "icons": {
+        "16": "icons/icon16.png",
+        "32": "icons/icon32.png",
+        "128": "icons/icon128.png"
+    }
+}
