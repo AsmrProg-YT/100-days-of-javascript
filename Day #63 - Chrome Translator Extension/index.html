@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Day #63 - Chrome Translator Extension | AsmrProg</title>
+</head>
+
+<body>
+
+    <label for="inputText">Your Text:</label>
+    <textarea id="inputText" rows="10" placeholder="Type text here..."></textarea>
+
+    <div>
+        <label for="translateFrom">Translate From:</label>
+        <select id="translateFrom">
+            <option value="en">English</option>
+        </select>
+        <label for="translateFrom">Translate To:</label>
+        <select id="translateTo">
+            <option value="es">Spanish</option>
+        </select>
+    </div>
+
+    <button id="translateBtn">Translate</button>
+    <button id="speakBtn">Speak</button>
+    <div id="outputText" aria-readonly="true"></div>
+
+    <script src="countries.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
