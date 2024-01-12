@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Day #66 - Live Chart Generator | AsmrProg</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="chart-container">
+            <div id="canvas-container"></div>
+        </div>
+
+        <div class="controls">
+            <select id="chartType" class="select">
+                <option value="bar">Bar</option>
+                <option value="line">Line</option>
+                <option value="pie">Pie</option>
+                <option value="doughnut">Doughnut</option>
+                <option value="radar">Radar</option>
+            </select>
+            <input type="text" id="labelInput" class="input" placeholder="Label">
+            <input type="number" id="dataInput" class="input" placeholder="Data">
+            <button onclick="addData()" class="btn">Add Data</button>
+            <button onclick="updateChartType()" class="btn">Change Chart Type</button>
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
