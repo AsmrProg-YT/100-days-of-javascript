@@ -77,8 +77,9 @@ Here we have list of projects:
 65. Capture Screenshot
 66. Live Chart Generator
 67. Captcha App
+68. JSON Parser
 
-## Where is rest 33 Projects
+## Where is rest 32 Projects
 
 We create a project each 3 days with voting on our <a href="https://youtube.com/@AsmrProg" target="_blank">Youtube</a> channel.
 You can vote for upcoming projects on our channel **community** page :wink:

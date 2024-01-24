@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 100vh;
+}
+
+textarea{
+    width: 500px;
+    height: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    resize: none;
+    overflow: scroll;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button,
+input[type=file]::file-selector-button{
+    background-color: #0366d6;
+    color: #fff;
+    border: none;
+    padding: 8px 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover,
+input[type=file]::file-selector-button:hover{
+    background-color: #004d99;
+}
+
+#jsonViewer{
+    width: 500px;
+    height: 400px;
+    line-height: 1.5;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    overflow: scroll;
+    font-size: 14px;
+}
+
+.collapsible{
+    cursor: pointer;
+    position: relative;
+    padding-left: 20px;
+}
+
+.collapsible::before{
+    content: '▶';
+    color: #555;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 14px;
+    line-height: 1;
+    padding-right: 5px;
+}
+
+.collapsible.collapsed::before{
+    content: '▼';
+}
+
+.hidden{
+    display: none;
+}
+
+.key{
+    color: #0366d6;
+    font-weight: bold;
+}
+
+.string{
+    color: #22863a;
+}
+
+.number{
+    color: #032f62;
+}
+
+.object{
+    margin-left: 15px;
+}
+
+.array{
+    margin-left: 15px;
+}
+
+.unknown{
+    color: #555;
+}
+
+@media screen and (max-width: 1350px) {
+    body{
+        flex-direction: column;
+        padding: 30px;
+    }
+}
