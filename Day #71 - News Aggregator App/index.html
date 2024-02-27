@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Day #71 - News Aggregator App | AsmrProg</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>News Aggregator</h1>
+
+        <div class="selectionContainer">
+            <label for="category">Choose Category :</label>
+            <select id="category">
+                <option value="business">Business</option>
+                <option value="entertainment">Entertainment</option>
+                <option value="general">General</option>
+                <option value="health">Health</option>
+                <option value="science">Science</option>
+                <option value="sports">Sports</option>
+                <option value="technology">Technology</option>
+            </select>
+            <button id="fetchCategory">Fetch News</button>
+        </div>
+
+        <div class="searchContainer">
+            <input type="text" id="searchKeyword" placeholder="Search for news...">
+            <button onclick="fetchNews(true)">Search Key</button>
+        </div>
+        <div id="newsContainer"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
