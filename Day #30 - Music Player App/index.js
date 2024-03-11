@@ -1,3 +1,4 @@
+//Let Add All The Element
 const image = document.getElementById('cover'),
     title = document.getElementById('music-title'),
     artist = document.getElementById('music-artist'),
@@ -11,7 +12,7 @@ const image = document.getElementById('cover'),
     background = document.getElementById('bg-img');
 
 const music = new Audio();
-
+//create the Array
 const songs = [
     {
         path: 'assets/1.mp3',
