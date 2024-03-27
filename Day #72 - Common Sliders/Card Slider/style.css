@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #512da8;
+}
+
+.container{
+    background: #fff;
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 80vw;
+    max-width: 720px;
+    height: 230px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.container .slider{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 86%;
+    margin: auto;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 1;
+}
+
+.container .slider p{
+    color: #888;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.container .slider img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.container .slider h3{
+    color: #333;
+    font-size: 15px;
+    margin-bottom: 2px;
+    text-align: center;
+}
+
+.container .slider h6{
+    color: #777;
+    font-weight: 500;
+    text-align: center;
+    font-size: 12px;
+}
+
+.container button{
+    font-size: 28px;
+    height: 48px;
+    width: 48px;
+    background: #fff;
+    border: none;
+    position: absolute;
+    color: #512da8;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+}
+
+.container button#next{
+    right: -26px;
+}
+
+.container button#prev{
+    left: -26px;
+}
+
+@media screen and (max-width: 720px) {
+    
+    .container{
+        height: 360px;
+    }
+
+    .container .slider{
+        flex-direction: column;
+    }
+
+    .container .slider p{
+        font-size: 13px;
+    }
+
+}
