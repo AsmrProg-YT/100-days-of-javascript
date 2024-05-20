@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    background-color: #ddd;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    position: relative;
+    padding: 10px;
+}
+
+.container .song-info{
+    background-color: #000;
+    margin: 0 15px;
+    padding: 15px 15px 5px 150px;
+    border-radius: 15px 15px 0 0;
+}
+
+.container .song-info .song-name{
+    color: #b9b9b9;
+    font-size: 14px;
+    margin: 3px 0 20px;
+}
+
+.container .song-info .artist-name{
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.container .song-info .progress-bar{
+    background-color: #505050;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.container .song-info .progress-bar .fill-bar{
+    width: 0;
+    height: 6px;
+    border-radius: 20px;
+    background: #1db954;
+}
+
+.container .song-info .time{
+    font-size: 15px;
+    color: #b9b9b9;
+    margin: 10px 0;
+}
+
+.container .disk{
+    max-width: 120px;
+}
+
+.container .disk .active{
+    animation: rotate 3s linear 0s infinite forwards;
+}
+
+.container .disk .cover{
+    width: 145px;
+    height: 145px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: url("assets/1.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease-in-out;
+}
+
+.container .disk .circle{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: 15%;
+    top: 29%;
+    background-color: #fff;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+.container .controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background-color: #292929;
+    width: 450px;
+    height: 100px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+}
+
+.container .controls #play{
+    background-color: #1db954;
+    color: #fff;
+    padding: 15px 17px 14px 18px;
+    font-size: 28px;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.container .controls #play:hover{
+    background: #189945;
+}
+
+.container .controls i{
+    padding: 30px 8px;
+    font-size: 35px;
+    cursor: pointer;
+    color: #919191;
+    transition: all 0.3s ease;
+}
+
+.container .controls i:hover{
+    color: #fff;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
