@@ -1,0 +1,43 @@
+*{
+    outline: none;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    width: 250px;
+}
+
+h1{
+    font-size: 18px;
+    margin: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+label, select, button{
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+}
+
+select{
+    padding: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+button{
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+button:hover{
+    background-color: #45a049;
+}
