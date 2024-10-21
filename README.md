@@ -86,6 +86,7 @@ Here we have list of projects:
 74. Flashcard App
 75. Mini Music Player
 76. Page Translator Extension
+77. AI Image Detector
 
 ## Where is rest 24 Projects
 
