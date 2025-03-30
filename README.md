@@ -88,8 +88,8 @@ Here we have list of projects:
 76. Page Translator Extension
 77. AI Image Detector
 78. Google Gemini Clone
+79. Simple Python Compiler
 
-## Where is rest 22 Projects
+## Where is rest 21 Projects
 
-We create a project each 3 days with voting on our <a href="https://youtube.com/@AsmrProg" target="_blank">Youtube</a> channel.
-You can vote for upcoming projects on our channel **community** page :wink:
+You can vote for upcoming projects on our <a href="https://youtube.com/@AsmrProg" target="_blank">Channel</a> **community** page :wink:

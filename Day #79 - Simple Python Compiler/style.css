@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    background-color: #2e2e2e;
+    color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    min-height: 100vh;
+}
+
+.container{
+    width: 100%;
+    max-width: 700px;
+    background: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+h1{
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+#editor-wrapper{
+    border: 1px solid #444;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.run-btn,
+#submit-inputs-btn{
+    width: 100%;
+    background: #0070f3;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 15px;
+    border-radius: 5px;
+    transition: background 0.2s ease;
+}
+
+.run-btn:hover,
+#submit-inputs-btn:hover{
+    background: #0059c9;
+}
+
+.output-container{
+    margin-top: 15px;
+    background: #121212;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    border: 1px solid #444;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    color: #e0e0e0;
+    max-height: 360px;
+    overflow-y: auto;
+}
+
+.CodeMirror{
+    height: 260px !important;
+    font-size: 14px;
+    scrollbar-width: thin;
+    scrollbar-color: #444 #2e2e2e;
+}
+
+.CodeMirror-vscrollbar div,
+.CodeMirror-hscrollbar div{
+    background-color: #444;
+    border-radius: 10px;
+}
+
+.input-group,
+#output{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    white-space: pre-wrap;
+}
+
+.user-input{
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+    background: #333;
+    color: #e0e0e0;
+    margin-top: 4px;
+}
+
+.user-input:focus{
+    border-color: #0070f3;
+}
+
+.inputs-container{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
