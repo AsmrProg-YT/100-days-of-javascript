@@ -89,7 +89,8 @@ Here we have list of projects:
 77. AI Image Detector
 78. Google Gemini Clone
 79. Simple Python Compiler
+80. Google reCAPTCHA
 
-## Where is rest 21 Projects
+## Where is rest 20 Projects
 
 You can vote for upcoming projects on our <a href="https://youtube.com/@AsmrProg" target="_blank">Channel</a> **community** page :wink:
