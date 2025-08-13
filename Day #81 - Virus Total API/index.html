@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Day #81 - Virus Total API | AsmrProg</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>VirusTotal Scanner</h1>
+
+        <section>
+            <h2>Scan a URL</h2>
+            <input type="text" id="urlInput" placeholder="Enter URL (e.g., https://example.com)">
+            <button onclick="scanURL()">Scan URL</button>
+        </section>
+
+        <section>
+            <h2>Scan a File</h2>
+            <input type="file" id="fileInput">
+            <button onclick="scanFile()">Scan File</button>
+        </section>
+
+        <div id="result"></div>
+
+        <div id="fullReportModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <h2>Full Report</h2>
+                <div id="fullReportContent"></div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

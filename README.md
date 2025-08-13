@@ -90,7 +90,8 @@ Here we have list of projects:
 78. Google Gemini Clone
 79. Simple Python Compiler
 80. Google reCAPTCHA
-81. Contact Form With EmailJS
+81. Virus Total API
+82. Contact Form With EmailJS
 
 ## Where is rest 19 Projects
 
