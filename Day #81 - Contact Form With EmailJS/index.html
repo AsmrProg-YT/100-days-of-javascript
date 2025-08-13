@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <title>Day #81 - Contact Form With Backend | AsmrProg</title>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="nav-logo">
+            <img src="Logo.png" alt="Logo" class="logo">
+        </div>
+        <div class="nav-links">
+            <a href="#">Features</a>
+            <a href="#">How it works</a>
+            <a href="#">Pricing</a>
+            <a href="#">Documentation</a>
+        </div>
+        <div class="nav-buttons">
+            <a href="#" class="login-btn">Log In</a>
+            <a href="#" class="try-btn">Try for free</a>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <div class="left-section">
+            <h1>Get in touch</h1>
+            <p class="subtitle">We are here for you! How can we help?</p>
+
+            <div class="form-container">
+                <h2>Drop us a line</h2>
+                <form autocomplete="off" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Your name</label>
+                            <input type="text" name="name" id="name" required placeholder="Please enter your name"
+                                autocomplete="off">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select name="subject" id="subject" required autocomplete="off">
+                                <option value="" disabled selected>Just saying hi</option>
+                                <option value="general">General Inquiry</option>
+                                <option value="support">Support</option>
+                                <option value="feedback">Feedback</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required placeholder="Please enter your email"
+                            autocomplete="off">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" required placeholder="Enter your message here"
+                            autocomplete="off"></textarea>
+                    </div>
+                    <button type="submit">Send Message</button>
+
+                </form>
+            </div>
+        </div>
+
+        <div class="right-section">
+            <h2>Or check out these resources</h2>
+
+            <div class="resource-card">
+                <div class="resource-icon slack-icon">
+                    <i class="fab fa-slack fa-2x" style="color:#611f69;"></i>
+                </div>
+                <div class="resource-content">
+                    <h3>Join our community on Slack</h3>
+                    <p>Popular UI components like tooltips, modals, cards, surveys are there to help you.</p>
+                </div>
+            </div>
+
+            <div class="resource-card">
+                <div class="resource-icon docs-icon">
+                    <i class="fas fa-book fa-2x" style="color:#4263EB;"></i>
+                </div>
+                <div class="resource-content">
+                    <h3>Read our documentation</h3>
+                    <p>Popular UI components like tooltips, modals, cards, surveys are there to help you.</p>
+                </div>
+            </div>
+
+            <div class="resource-card">
+                <div class="resource-icon support-icon">
+                    <i class="fas fa-headset fa-2x" style="color:#10B981;"></i>
+                </div>
+                <div class="resource-content">
+                    <h3>Contact Support</h3>
+                    <p>Need help? Our support team is here to assist you 24/7 with any issues or questions.</p>
+                </div>
+            </div>
+
+            <div class="resource-card">
+                <div class="resource-icon video-icon">
+                    <i class="fas fa-circle-play fa-2x" style="color:#f59e42;"></i>
+                </div>
+                <div class="resource-content">
+                    <h3>Watch Video Tutorials</h3>
+                    <p>Learn how to get the most out of our platform with step-by-step video guides.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div id="success-message" class="hidden">
+        Message sent successfully!
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
