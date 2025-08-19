@@ -1,6 +1,6 @@
 const fromText = document.querySelector(".from-text");
 const toText = document.querySelector(".to-text");
-const exchageIcon = document.querySelector(".exchange");
+const exchangeIcon = document.querySelector(".exchange");
 const selectTag = document.querySelectorAll("select");
 const icons = document.querySelectorAll(".row i");
 const translateBtn = document.querySelector("button");
@@ -13,7 +13,7 @@ selectTag.forEach((tag, id) => {
     }
 });
 
-exchageIcon.addEventListener("click", () => {
+exchangeIcon.addEventListener("click", () => {
     let tempText = fromText.value,
         tempLang = selectTag[0].value;
     fromText.value = toText.value;
